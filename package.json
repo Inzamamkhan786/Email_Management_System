@@ -2,7 +2,7 @@
   "name": "mailpilot",
   "private": true,
   "version": "1.0.0",
-  "description": "MailPilot – AI-powered personal assistant email management",
+  "description": "MailPilot - AI-powered personal assistant email management",
   "scripts": {
     "dev": "concurrently -n server,client -c cyan,magenta \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
     "seed": "npm run seed --prefix server",
